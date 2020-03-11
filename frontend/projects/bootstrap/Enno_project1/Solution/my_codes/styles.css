@@ -1,0 +1,45 @@
+#navbarNavAltMarkup li.active {
+  border-bottom: 3px solid #41b7e6d8;
+}
+
+footer {
+  height: 13vh;
+}
+
+.myindicators {
+  position: absolute;
+  top: 100%;
+}
+
+.myindicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #5bc0de;
+}
+
+.myindicators li:not(.active) {
+  background-color: black;
+}
+
+.bg-rounded {
+  background-color: rgba(0, 0, 0, 0.295);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.arrow-left {
+  z-index: 20;
+  position: absolute;
+  top: -12px;
+  left: -12px;
+}
+
+.arrow-right {
+  z-index: 20;
+  position: absolute;
+  top: -12px;
+  right: -12px;
+}

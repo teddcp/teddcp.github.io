@@ -1,0 +1,6 @@
+Using the design mockups, following to be implemented:
+-	Page should be responsive
+-	CSS and JavaScript use bootstrap
+-	For bootstrap => https://getbootstrap.com
+-	For icons => fontawesome.com
+-	Images use http://placehold.it/900x350

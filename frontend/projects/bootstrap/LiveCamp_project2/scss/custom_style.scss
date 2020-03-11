@@ -1,0 +1,69 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar {
+  color: snow;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 3;
+
+  .navbar-brand {
+    font-weight: 900;
+  }
+  .nav-link:hover {
+    transition: border 0.2s;
+    border-bottom: 1px solid snow;
+  }
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+
+  #showcase-area {
+    background: url("../images/camping1.jpg") -80% 80% / cover no-repeat;
+    min-height: 600px;
+    position: relative;
+
+    .message {
+      font-family: "Questrial", sans-serif;
+      color: rgba(255, 255, 255, 0.7);
+      z-index: 2;
+    }
+    #book {
+      border-radius: 2rem;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.img-gallery img:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    background-color: #1f1f1f;
+
+    .nav-link:hover {
+      border-bottom: none;
+    }
+  }
+
+  #showcase-area {
+    min-height: 300px;
+
+    .message {
+      position: absolute;
+      top: 9rem;
+    }
+
+    #book {
+      font-size: 1rem;
+    }
+  }
+}
